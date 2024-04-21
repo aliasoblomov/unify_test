@@ -1,0 +1,9 @@
+config {
+  type: "incremental",
+  description: "Test the Cloud Workflows trigger.",
+  schema: "dataform_test",
+  tags: ["enhced"]
+}
+
+select 
+  current_datetime() as workflow_runtime
